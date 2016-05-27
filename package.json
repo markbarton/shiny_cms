@@ -1,0 +1,30 @@
+{
+  "name": "shiny_cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production&&node server.js",
+    "dev": "set NODE_ENV=development&&node server.js",
+    "local": "set NODE_ENV=local&&node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "express3-handlebars": "^0.5.2",
+    "jsonwebtoken": "^7.0.0",
+    "mongoose": "^4.4.19",
+    "nodemailer": "^2.4.2",
+    "nodemailer-mailgun-transport": "^1.0.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "swag": "^0.7.0",
+    "winston": "^2.2.0",
+    "winston-papertrail": "^1.0.2"
+  }
+}

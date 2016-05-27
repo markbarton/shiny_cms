@@ -1,0 +1,21 @@
+{
+  "name": "shiny_cms",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Mark Barton <markbarton@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-ui-tinymce": "^0.0.16"
+  }
+}
